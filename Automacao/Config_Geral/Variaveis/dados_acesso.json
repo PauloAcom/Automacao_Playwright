@@ -1,0 +1,36 @@
+
+{
+  "GCONF": {
+    "url": "https://gconf.srv978115.hstgr.cloud/login",
+    "usuario": "admin",
+    "senha": "evers",
+    "entidade": "2019002",
+    "timeout": 20000,
+    "invalido": {
+      "login": "usuario_invalido",
+      "senha": "senha_invalida"
+    }
+  },
+  "EVERLOJA": {
+    "url": "https://homolog.everloja.net.br/login",
+    "usuario": "admin",
+    "senha": "everfs",
+    "entidade": "2019002",
+    "timeout": 20000,
+    "invalido": {
+      "login": "usuario_invalido",
+      "senha": "senha_invalida"
+    }
+  },
+  "EVERREPORT": {
+    "url": "https://report.homolog.everest4.net.br/login",
+    "usuario": "admin",
+    "senha": "everfs",
+    "entidade": "2019002",
+    "timeout": 20000,
+    "invalido": {
+      "login": "usuario_invalido",
+      "senha": "senha_invalida"
+    }
+}
+}

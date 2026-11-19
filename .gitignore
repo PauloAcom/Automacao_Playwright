@@ -1,0 +1,43 @@
+# =====================================
+# DEPENDENCIAS
+# =====================================
+node_modules/
+
+
+# =====================================
+# RESULTADOS PLAYWRIGHT
+# =====================================
+playwright-report/
+test-results/
+blob-report/
+
+# =====================================
+# EVIDENCIAS DOS TESTES
+# =====================================
+screenshots/
+videos/
+traces/
+evidencias/
+
+# =====================================
+# CREDENCIAIS E DADOS LOCAIS
+# =====================================
+.env
+.env.*
+!.env.example
+
+Config_Geral/Variaveis/dados_acesso.json
+
+# =====================================
+# ARQUIVOS TEMPORARIOS
+# =====================================
+*.log
+*.tmp
+*.bak
+
+# =====================================
+# SISTEMA OPERACIONAL
+# =====================================
+.DS_Store
+Thumbs.db
+desktop.ini
