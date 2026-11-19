@@ -1,0 +1,4 @@
+{
+  "usuario": "ADMIN",
+  "senha": "evers"
+}
