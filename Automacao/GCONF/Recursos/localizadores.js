@@ -11,22 +11,28 @@ const elementos_Login = {
 
 };
 
+const modalCadastro = '//div[@aria-modal="true"]';
+
 const elementos_cadastro_aplicacoes = {
+    menu: {
+        menu_cadastro:'//div[@aria-label="Cadastros"]',
+        submenu_cadastro_documentos:'//div[contains(.,"Aplicações/Documentos") and @role="button"]'
+    },
 
     pesquisa: {
-        campo_codigo: '#codigo',
-        campo_descricao: '#descricao',
-        botao_buscar: {
-            role: 'button',
-            name: 'Buscar'
-        },
-        botao_limpar: {
-            type: 'button',
-            name: 'Limpar'
-        },
+        campo_codigo:'input[placeholder="Código"]',
+        campo_descricao: 'input[placeholder="Descrição"]',
+        botao_buscar: 'button[id = "bt_buscar"]',
+        botao_novo: 'button[id = "bt_novo"]'
+    },
     cadastro:{
-
-    }
+        campo_descricao: modalCadastro + '//input[@id = "ds_documentofiscal"]',
+        campo_sigla: modalCadastro + '//input[@id = "sigla"]',
+        campo_preco: '//input[@id = "vl_preco"]',
+        botao_salvar:'//button[@id="bt_salvar"]',
+        botao_cancelar: '//button[@id="bt_cancelar"]',
+        botao_fechar: '//button[@aria-label="Fechar"]',
+        botao_descartar: '//button[text()="Descartar"]'
     }
 };
 

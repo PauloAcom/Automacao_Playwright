@@ -1,5 +1,5 @@
 const dados = require('../../Config_Geral/Variaveis/dados_acesso.json');
-const elementos_Login = require('./localizadores');
+const {elementos_Login} = require('./localizadores');
 
 
 async function loginGCONF(page) {
