@@ -1,5 +1,9 @@
 const dados = require('../../Config_Geral/Variaveis/dados_acesso.json');
+<<<<<<< HEAD
+const { elementos_Login } = require('./localizadores');
+=======
 const {elementos_Login} = require('./localizadores');
+>>>>>>> 88e7ec151b33a07593826d2bb78d6413c570a9e1
 
 
 async function loginGCONF(page) {
